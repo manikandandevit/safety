@@ -75,7 +75,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 }
             }
         } catch (Exception e) {
-            
+            System.out.println("JWT Verification Failed: " + e.getMessage());
         }
         
         filterChain.doFilter(request, response);
