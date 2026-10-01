@@ -30,7 +30,6 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
 
 ### macOS ###
 .DS_Store
@@ -40,3 +39,5 @@ build/
 scratch/
 GenerateKey.java
 test_api.ps1
+config.bat
+node_modules
